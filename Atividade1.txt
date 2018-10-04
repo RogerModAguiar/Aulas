@@ -2,7 +2,7 @@ Dependency Hell: O caso Jarbas
 
 O que é o inferno das dependências?
 
-Inferno das dependências (Dependency Hell), é um conceito dado a complicações ao lidar com pacotes de software. Nas distribuições Linux esse problema vem se tornando cada vez mais raro, no entanto ele pode ocorrer ao atualizar as distribuições dos pacotes, no caso de software proprietário é comum acontecer, pois o usuário não tem controle sobre o processo de criação de pacotes. O ocorrido no caso Jarbas foi que mexeram no codigo onde acaba deixando o projeto Jarbas com o código quebrado.
+Inferno das dependências (Dependency Hell), é um conceito dado a complicações ao lidar com pacotes de software. Nas distribuições Linux esse problema vem se tornando cada vez mais raro, no entanto ele pode ocorrer ao atualizar as distribuições dos pacotes, no caso de software proprietário é comum acontecer, pois o usuário não tem controle sobre o processo de criação de pacotes. O ocorrido no caso Jarbas foi que mexeram no código onde acaba deixando o projeto Jarbas com o código quebrado. Para quebrar o caso Jarbas precisamos fazer a reinstalação do sistema novamente, se o reprint não versionasse as alterações do código, seria mais difícil usar as versões anteriores do sistema. Nesse caso torna de que tendo ocorrido o incremento da versão torna-se possível acompanhar o versionamento a mudança do código, assim é possível e fácil voltar a usar localmente a versão anterior. 
 
 O que é o PyUP?
 
@@ -15,4 +15,3 @@ Pode colaborar no "Itens de Configuração / Alteração de Configuração do So
 Como o versionamento semântico ajudou no problema?
 
 O versionamento semântico hoje é um dos padrões de versionamento mais usados e conhecidos. Criado para evitar o chamado "dependency hell" (inferno das dependências), tem o objetivo de evitar que atualizações de dependência quebrem o seu software indevidamente, enquanto permitindo que você tenha uma noção do status de estabilidade do software (se é "seguro" usar em produção, por exemplo) e possa identificar se uma nova versão possui apenas novos recursos ou se possui apenas correções de bugs.
-
